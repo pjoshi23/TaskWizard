@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811BE9202C5595A400C5FA08 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 811BE91F2C5595A400C5FA08 /* FirebaseAuth */; };
 		81D64AE12C542EEE00AC1B21 /* Todo2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D64AE02C542EEE00AC1B21 /* Todo2App.swift */; };
 		81D64AE32C542EEE00AC1B21 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D64AE22C542EEE00AC1B21 /* TaskListView.swift */; };
 		81D64AE52C542EEF00AC1B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D64AE42C542EEF00AC1B21 /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 				81D64B1F2C545C8C00AC1B21 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				81D64B292C545E4D00AC1B21 /* FirebaseFirestore in Frameworks */,
 				81D64B2B2C545E5400AC1B21 /* FirebaseFirestoreSwift in Frameworks */,
+				811BE9202C5595A400C5FA08 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +224,7 @@
 				81D64B202C545C8C00AC1B21 /* FirebaseAppCheck */,
 				81D64B282C545E4D00AC1B21 /* FirebaseFirestore */,
 				81D64B2A2C545E5400AC1B21 /* FirebaseFirestoreSwift */,
+				811BE91F2C5595A400C5FA08 /* FirebaseAuth */,
 			);
 			productName = Todo2;
 			productReference = 81D64ADD2C542EEE00AC1B21 /* Todo2.app */;
@@ -691,6 +694,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		811BE91F2C5595A400C5FA08 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81D64B172C545C8C00AC1B21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
 		81D64B182C545C8C00AC1B21 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 81D64B172C545C8C00AC1B21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

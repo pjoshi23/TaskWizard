@@ -8,6 +8,7 @@
 import SwiftUI
 import FirebaseCore
 import FirebaseAppCheck
+import FirebaseAuth
 
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
@@ -16,6 +17,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
       let providerFactory = AppCheckDebugProviderFactory()
       AppCheck.setAppCheckProviderFactory(providerFactory)
       FirebaseApp.configure()
+      Auth.auth().signInAnonymously()
 
     return true
   }
